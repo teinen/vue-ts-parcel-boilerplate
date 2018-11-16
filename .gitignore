@@ -1,0 +1,11 @@
+# parcel
+.cache
+dist/
+
+# env
+.DS_Store
+
+# node modules
+node_modules/
+
+*.log

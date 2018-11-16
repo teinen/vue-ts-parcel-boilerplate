@@ -1,0 +1,25 @@
+{
+  "name": "vue-parcle-boilerplate",
+  "description": "Parcel boilerplate with Vue.js!",
+  "author": "teinen",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@vue/component-compiler-utils": "^2.3.0",
+    "autoprefixer": "^9.3.1",
+    "parcel-bundler": "^1.10.3",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.15.0",
+    "typescript": "^3.1.6",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
