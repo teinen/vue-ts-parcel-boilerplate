@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html --open",
     "build": "parcel build index.html",
-    "lint": "eslint --fix ./src/**/*.vue ./src/**/*.ts"
+    "lint": "eslint --fix --ext .vue,.ts ./src"
   },
   "dependencies": {
     "vue": "^2.5.17",
