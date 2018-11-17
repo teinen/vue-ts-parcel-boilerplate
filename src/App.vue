@@ -1,20 +1,30 @@
 <template>
   <div>
-    <HelloComponent />
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+    </nav>
+
+    <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Hello from '~/src/components/Hello.vue'
 
 export default Vue.extend({
-  components: {
-    HelloComponent: Hello
-  }
-});
+
+})
 </script>
 
-<style>
+<style lang="scss">
+nav {
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
 
+  a {
+    text-decoration: none;
+  }
+}
 </style>
