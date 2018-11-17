@@ -4,7 +4,8 @@
   "author": "teinen",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html --open",
+    "serve": "parcel index.html --open",
+    "watch": "parcel watch index.html",
     "build": "parcel build index.html",
     "lint": "eslint --fix --ext .vue,.ts ./src"
   },
