@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html --open",
     "build": "parcel build index.html",
-    "lint": "eslint --fix ./src/**/*.vue"
+    "lint": "eslint --fix ./src/**/*.vue ./src/**/*.ts"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -18,8 +18,10 @@
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@vue/component-compiler-utils": "^2.3.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
     "@vue/eslint-config-typescript": "^3.1.1",
     "autoprefixer": "^9.3.1",
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.9.0",
     "eslint-plugin-vue": "^4.7.1",
     "parcel-bundler": "^1.10.3",

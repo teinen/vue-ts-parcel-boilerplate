@@ -3,11 +3,11 @@
 </template>
 
 <script lang="ts">
-import { Vue } from 'vue-property-decorator'
+import { Vue } from "vue-property-decorator";
 
 export default class About extends Vue {
   /** data */
-  message: string = 'This is About page.'
+  message: string = "This is About page.";
 }
 </script>
 
