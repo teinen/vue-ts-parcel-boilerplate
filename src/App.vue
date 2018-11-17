@@ -4,14 +4,15 @@
   </div>
 </template>
 
-<script>
-import Hello from '~/src/components/Hello'
+<script lang="ts">
+import Vue from 'vue'
+import Hello from '~/src/components/Hello.vue'
 
-export default {
+export default Vue.extend({
   components: {
     HelloComponent: Hello
   }
-}
+});
 </script>
 
 <style>

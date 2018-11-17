@@ -2,15 +2,14 @@
   <h1>Hello, {{ framework }} + {{ superset }} + {{ bundler }}</h1>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      framework: 'Vue.js',
-      superset: 'TypeScript',
-      bundler: 'Parcel'
-    }
-  }
+<script lang="ts">
+import { Vue } from "vue-property-decorator";
+
+export default class Hello extends Vue {
+  /** data */
+  framework: string = 'Vue.js'
+  superset: string = 'TypeScript'
+  bundler: string = 'Parcel'
 }
 </script>
 

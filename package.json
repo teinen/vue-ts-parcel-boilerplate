@@ -1,6 +1,6 @@
 {
-  "name": "vue-parcle-boilerplate",
-  "description": "Parcel boilerplate with Vue.js!",
+  "name": "vue-typescript-parcle-boilerplate",
+  "description": "This is a very simple boilerplate with Vue.js, TypeScript, Parcel.",
   "author": "teinen",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "vue": "^2.5.17",
+    "vue-class-component": "^6.3.2",
     "vue-hot-reload-api": "^2.3.1",
+    "vue-property-decorator": "^7.2.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
