@@ -2,6 +2,7 @@
   <div>
     <nav>
       <router-link to="/">Home</router-link>
+      |
       <router-link to="/about">About</router-link>
     </nav>
 
@@ -16,13 +17,23 @@ export default Vue.extend({});
 </script>
 
 <style lang="scss">
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
 nav {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: 20px;
   text-align: center;
 
   a {
-    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
   }
 }
 </style>
