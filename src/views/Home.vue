@@ -1,17 +1,17 @@
 <template>
-  <h1>Hello, {{ framework }} + {{ superset }} + {{ bundler }}</h1>
+  <HelloComponent />
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Hello from "~/src/components/Hello.vue";
 
-@Component
-export default class Hello extends Vue {
-  /** data */
-  framework: string = "Vue.js";
-  superset: string = "TypeScript";
-  bundler: string = "Parcel";
-}
+@Component({
+  components: {
+    HelloComponent: Hello
+  }
+})
+export default class Home extends Vue {}
 </script>
 
 <style lang="scss" scoped>
