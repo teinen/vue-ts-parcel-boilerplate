@@ -15,8 +15,4 @@ export default class Hello extends Vue {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  text-align: center;
-  color: green;
-}
 </style>

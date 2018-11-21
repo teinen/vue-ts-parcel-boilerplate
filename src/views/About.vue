@@ -13,8 +13,4 @@ export default class About extends Vue {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  text-align: center;
-  color: blue;
-}
 </style>
