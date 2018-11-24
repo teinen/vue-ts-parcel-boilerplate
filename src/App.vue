@@ -6,6 +6,10 @@
     </nav>
 
     <router-view></router-view>
+
+    <footer>
+      © 2018 Akira Kanno
+    </footer>
   </div>
 </template>
 
@@ -39,5 +43,17 @@ nav {
 h1 {
   text-align: center;
   color: #2c3e50;
+}
+
+footer {
+  align-items: center;
+  border-top: 1px solid #2c3e50;
+  bottom: 0;
+  display: flex;
+  height: 60px;
+  left: 0;
+  justify-content: center;
+  position: fixed;
+  right: 0;
 }
 </style>

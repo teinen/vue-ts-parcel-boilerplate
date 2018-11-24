@@ -1,5 +1,9 @@
 <template>
-  <HelloComponent />
+  <HelloComponent
+    framework="Vue.js"
+    altjs="TypeScript"
+    bundler="Parcel"
+  />
 </template>
 
 <script lang="ts">

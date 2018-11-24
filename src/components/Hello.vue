@@ -1,22 +1,18 @@
 <template>
-  <h1>Hello, {{ framework }} + {{ superset }} + {{ bundler }}</h1>
+  <h1>Hello, {{ framework }} + {{ altjs }} + {{ bundler }}</h1>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Hello extends Vue {
   /** data */
-  framework: string = "Vue.js";
-  superset: string = "TypeScript";
-  bundler: string = "Parcel";
+  @Prop() private framework!: string;
+  @Prop() private altjs!: string;
+  @Prop() private bundler!: string;
 }
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  text-align: center;
-  color: green;
-}
 </style>
