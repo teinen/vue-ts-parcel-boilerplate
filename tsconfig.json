@@ -3,11 +3,8 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -25,10 +22,8 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.ts"
   ],
   "exclude": [
     "node_modules"
