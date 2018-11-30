@@ -1,9 +1,5 @@
 <template>
-  <HelloComponent
-    framework="Vue.js"
-    altjs="TypeScript"
-    bundler="Parcel"
-  />
+  <HelloComponent framework="Vue.js" altjs="TypeScript" bundler="Parcel" />
 </template>
 
 <script lang="ts">
@@ -18,5 +14,4 @@ import Hello from "~/src/components/Hello.vue";
 export default class Home extends Vue {}
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

@@ -7,9 +7,7 @@
 
     <router-view></router-view>
 
-    <footer>
-      Copyright 2018 Akira Kanno
-    </footer>
+    <footer>Copyright 2018 Akira Kanno</footer>
   </div>
 </template>
 
