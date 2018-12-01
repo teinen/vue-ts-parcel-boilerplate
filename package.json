@@ -1,5 +1,5 @@
 {
-  "name": "vue-typescript-parcle-boilerplate",
+  "name": "vue-typescript-parcel-boilerplate",
   "description": "This is a very simple boilerplate with Vue.js, TypeScript, Parcel.",
   "author": "teinen",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "watch": "parcel watch index.html",
     "build": "parcel build index.html",
     "lint": "eslint --fix --ext .vue,.ts ./src",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -19,7 +19,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
+    "@types/jest": "^23.3.10",
     "@vue/component-compiler-utils": "^2.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "@vue/eslint-config-typescript": "^3.1.1",
