@@ -1,6 +1,6 @@
 # Vue.js + TypeScript + Parcel boilerplate
 
-This is a very simple boilerplate using Vue.js, TypeScript, Parcel.
+This is a very simple boilerplate with Vue.js, TypeScript, Parcel.
 
 ## Usage
 
@@ -9,10 +9,16 @@ This is a very simple boilerplate using Vue.js, TypeScript, Parcel.
 $ yarn install
 
 # start development server
-$ yarn dev
+$ yarn serve
 
 # build for production
 $ yarn build
+
+# lint
+$ yarn lint
+
+# run tests
+$ yarn test
 ```
 
 ## Author
